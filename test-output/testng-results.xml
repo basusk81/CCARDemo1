@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65341" started-at="2019-09-24T21:31:36Z" finished-at="2019-09-24T21:32:41Z">
+    <groups>
+    </groups>
+    <test name="Test1: Validating X" duration-ms="12" started-at="2019-09-24T21:31:36Z" finished-at="2019-09-24T21:31:36Z">
+    </test> <!-- Test1: Validating X -->
+    <test name="Test2: Validation Main Page opens again" duration-ms="16553" started-at="2019-09-24T21:31:36Z" finished-at="2019-09-24T21:31:52Z">
+      <class name="Practise1.MainPage">
+        <test-method status="PASS" signature="MainPageLoad()[pri:0, instance:Practise1.MainPage@34123d65]" name="MainPageLoad" duration-ms="16541" started-at="2019-09-24T17:31:36Z" finished-at="2019-09-24T17:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPageLoad -->
+      </class> <!-- Practise1.MainPage -->
+    </test> <!-- Test2: Validation Main Page opens again -->
+    <test name="Test3: Validating the Buttons" duration-ms="34243" started-at="2019-09-24T21:31:52Z" finished-at="2019-09-24T21:32:27Z">
+      <class name="Practise1.PractisePage">
+        <test-method status="PASS" signature="MainPageLoad1()[pri:0, instance:Practise1.PractisePage@13c9d689]" name="MainPageLoad1" duration-ms="15493" started-at="2019-09-24T17:31:52Z" finished-at="2019-09-24T17:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPageLoad1 -->
+        <test-method status="PASS" signature="MainPageLoad2()[pri:0, instance:Practise1.PractisePage@13c9d689]" name="MainPageLoad2" duration-ms="18746" started-at="2019-09-24T17:32:08Z" finished-at="2019-09-24T17:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPageLoad2 -->
+      </class> <!-- Practise1.PractisePage -->
+    </test> <!-- Test3: Validating the Buttons -->
+    <test name="Test4: Validating the Header" duration-ms="14501" started-at="2019-09-24T21:32:27Z" finished-at="2019-09-24T21:32:41Z">
+      <class name="Practise1.HeaderMatch">
+        <test-method status="PASS" signature="HeaderMatches()[pri:0, instance:Practise1.HeaderMatch@1d296da]" name="HeaderMatches" duration-ms="14498" started-at="2019-09-24T17:32:27Z" finished-at="2019-09-24T17:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderMatches -->
+      </class> <!-- Practise1.HeaderMatch -->
+    </test> <!-- Test4: Validating the Header -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Practise1.listeners"/>
+<listener class-name="Practise1.ExtentReporterNG"/>
+</listeners>
+  
+  <test name="Test1: Validating X">
+    <classes>
+      <class name="Practise1.AppTest"/>
+      </classes>
+      </test>
+      
+      <test name="Test2: Validation Main Page opens again">
+      <classes>
+      <class name="Practise1.MainPage"/>
+      </classes>
+      </test>
+      
+      <test name="Test3: Validating the Buttons">
+      <classes>
+      <class name="Practise1.PractisePage"/>
+      </classes>
+      </test>
+      
+      <test name="Test4: Validating the Header">
+      <classes>
+      <class name="Practise1.HeaderMatch"/>
+      </classes>
+      </test>
+        
+  <!-- Test -->
+</suite> <!-- Suite -->
